@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,800&display=swap');
+@import 'mediaqueries.css';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    font-family:'Open Sans', sans-serif;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/ImagenBarraMEnu.jpg);
+
+}
+
+.navbar{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    padding: 30px;
+}
+
+.navbar .brand{
+    color:orange;
+}
+
+.navbar .menu{
+    grid-column: 6/9;
+    display: flex;
+    margin-top: 10px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu li a{
+    text-decoration: none;
+    margin-right: 2em;
+    font-size: 1.3em;
+    color:aliceblue;
+    font-weight: 20000;
+    padding: 10px 5px;
+}
+
+.menu li a:hover{
+    background-color: orange;
+    transition: all .2s;
+    color: #000000;
+}
+
+.menu-bar{
+    display: none;
+}
