@@ -56,3 +56,10 @@ body{
 .menu-bar{
     display: none;
 }
+
+/* MAIN SECTION */
+
+.main{
+    display: flex;
+    justify-content:space-around ;
+}
