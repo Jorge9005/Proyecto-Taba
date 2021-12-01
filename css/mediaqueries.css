@@ -36,6 +36,19 @@
         cursor: pointer;
     }
 
+
     /* MAIN SECTION */
 
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+        height: 70vh;
+    }
+    .main img{
+        width: 12em;
+    }
 }
