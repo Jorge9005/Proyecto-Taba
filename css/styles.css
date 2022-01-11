@@ -24,7 +24,15 @@ body{
 }
 
 .navbar .brand{
-    color:orange;
+    color:rgb(12, 10, 6);
+    margin-top: 5px;
+}
+
+#nombre2{
+    -webkit-text-stroke: 0.2px rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: -10px;
+
 }
 
 .navbar .menu{
@@ -47,9 +55,10 @@ body{
 }
 
 .menu li a:hover{
-    background-color: orange;
+    background-color: deeppink;
     transition: all .2s;
     color: #000000;
+    border-radius: 3px;
 }
 
 .menu-bar{
@@ -62,11 +71,18 @@ body{
     display: flex;
     justify-content:space-around;
     align-items: center;
-    margin-left: 20%;
+    margin-left: 5%;
+}
+
+.main_contacto{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%;
 }
 
 .content-info{
-    margin-top: 5em;
+    margin-top: 1rem;
     color:#fff;
 }
 
@@ -89,9 +105,11 @@ button:hover{
 .read-more{
     background: none;
     border: 1px solid #fff;
-    margin: 10px;
+    margin-top: 10px;
+
 }
 
 .main img{
     margin-top: 3em;
+    margin-left: 10em;
 }
