@@ -65,6 +65,7 @@ body{
     display: none;
 }
 
+
 /* MAIN SECTION */
 
 .main{
@@ -74,7 +75,32 @@ body{
     margin-left: 5%;
 }
 
+/* MAIN CONEXIONES*/
+.main_conexiones{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+/* MAIN CONTACTO*/
 .main_contacto{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+/* MAIN FERRETERIA*/
+.main_ferreteria{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-left: 5%;
+}
+
+/* MAIN MANGUERAS*/
+.main_mangueras{
     display: flex;
     justify-content:space-around;
     align-items: center;
